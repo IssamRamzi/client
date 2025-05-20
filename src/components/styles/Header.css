@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+}
+
+.nav-components{
+    display: flex;
+    gap: 40px;
+}
+
+.name{
+    font-size: 22px;
+}
+
+.link{
+    font-size: 19px;
+    font-weight: bold;
+    list-style: none;
+}
+
