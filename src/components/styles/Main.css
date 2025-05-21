@@ -1,5 +1,9 @@
 .main{
+    padding: 30px 30px;
+}
 
+.main h3{
+    font-size: 22px;
 }
 
 .desc{
@@ -31,3 +35,13 @@
 
 }
 
+.contact{
+    padding: 15px 30px;
+}
+
+.fun-section{
+    padding: 15px 30px;
+}
+.fun-section li{
+    list-style: none;
+}

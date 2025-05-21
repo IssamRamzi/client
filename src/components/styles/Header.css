@@ -11,12 +11,24 @@
 }
 
 .name{
-    font-size: 22px;
+
+    font-size: 24px;
+    animation: typing 0.5s steps(7, end);
 }
 
 .link{
-    font-size: 19px;
+    font-size: 22px;
     font-weight: bold;
     list-style: none;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img{
+    height: 50px;
+    border-radius: 7px;
+}

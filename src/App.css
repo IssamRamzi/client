@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+
+
+@keyframes typing {
+  from {width: 0;}
+  to {width: 100%;}
+}
+
 :root{
   --shadow-color : rgba(34, 197, 94, 0.2);
   --text-color : rgb(34,197,94);
@@ -21,7 +28,6 @@
   flex-direction: column;
   /* font-family: 'Press Start 2P', cursive; */
   font-family: "Pixelify Sans", sans-serif;
-
 }
 
 .green{
@@ -44,6 +50,15 @@
   color: rgb(255, 255, 255);
 }
 
+.anim{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 0.5s steps(7, end);
+}
+
+.gray{
+  color: rgb(65, 64, 64);
+}
 
 @media only screen and(height < 1000px) {
     .skills{
@@ -52,3 +67,4 @@
         padding: 10px 30px;
     }
 }
+
